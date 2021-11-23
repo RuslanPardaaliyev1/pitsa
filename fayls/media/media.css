@@ -1,0 +1,96 @@
+@media (max-width:770px) {
+    .piza{
+        flex-direction: column;
+        
+    }
+    
+    .footer-main{
+        flex-direction: column;
+    }
+    .cantakt_header{
+        padding-top: 30px;
+    }
+    .header-titel{
+        text-align: center;
+    }
+}
+@media (max-width:500px) {
+    .cantakt_header{
+        text-align: center;
+    }
+    .cantakt_header button{
+        margin-top: 30px;
+        margin-right: 45px;
+    }
+    .header-titel{
+        text-align: center;
+    }
+}
+@media (max-width:1000px) {
+    .totti{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .totti-right p{
+        width: 100%;
+        
+    }
+    .totti-right h2{
+        text-align: center;
+    }
+}
+@media (max-width :1000px) {
+   .manu-item-right {
+       display: flex;
+       align-items: center;
+   }
+   .lolo{
+        width: 100%;
+        flex-direction: column;
+        
+    }
+   .sikit{
+       width: 80%;
+       height: 250px;
+   }
+   .main-menu h2{
+       display: flex;
+       justify-content: center;
+   }
+   .main-bottom{
+       display: flex;
+       align-items: center;
+       flex-direction: column;
+   }
+}
+@media (max-width:780px) {
+    .lolo{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .sikit{
+        width:80%;
+        height:350px;
+    }
+    .manu-item-right{
+        width: 80%;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+@media (max-width:500px) {
+    .main-top img{
+        width: 250px;
+       
+    }
+    .main-top{
+        display: flex;
+        flex-direction: column;
+       
+        align-items: center;
+    }
+    
+}

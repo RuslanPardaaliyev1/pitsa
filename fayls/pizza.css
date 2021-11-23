@@ -1,0 +1,245 @@
+@import url(./fonts/fonts.css);
+
+:root{
+    --green: #68bf3b;
+    --sale: #68cd16;
+    --grstart: #6ad017;
+    --grend: #3d8802;
+    --txt: #a6a6a6;
+}
+
+header{
+    background: url(./images/header_bg.jpg) no-repeat center center /cover;
+
+}
+.piza_logio{
+    font-size: 24px;
+    font-family: var(--mbold);
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+.piza{
+    padding-top: 30px;
+    margin-bottom: 180px;
+    
+}
+.cantakt_header a{
+    font-size: 24px;
+    font-family: var(--mregular);
+    /* text-transform: uppercase; */
+    color: #fff;
+    text-decoration: none;
+    line-height: 23px;
+
+}
+.cantakt_header button{
+    font-size: 16px;
+    font-family: var(--mregular);
+    /* text-transform: uppercase; */
+    color: #fff;
+    padding: 17px 41px 19px 39px; 
+    background-color: var(--green);
+    border: none;
+    border-radius: 26px;
+    margin-left: 50px;
+    
+}
+.header-titel p:first-child{
+    font-size: 18px;
+    font-family: var(--mblack);
+    line-height: 13px;
+    font-weight: 900;
+    color: #fff;
+    text-transform: uppercase;
+} 
+.header-titel h2{
+    font-family: var(--mblack);
+    font-size: 72px;
+    font-weight: 900;
+    color: #fff;
+    text-transform: uppercase;
+}
+.header-titel p:nth-child(3){
+    font-size: 18px;
+    font-family: var(--mregular);
+    line-height: 400px;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 13px;
+    margin-bottom: 68px;
+} 
+.header-titel a{
+    padding: 17px 47px 20px 45px; 
+    background: linear-gradient(to top,var(--grend), var(--sale));
+    color: #fff;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: var(--mregular);
+    
+}
+.header-titel{
+    padding-bottom: 274px;
+}
+.totti-right{
+    margin-left: 15px;
+}
+
+.totti-right h2{
+    font-family: var(--mbold);
+    font-size: 36px;
+    font-weight:700;
+    text-transform: uppercase;
+    color: var(--green);
+    padding-bottom: 66px;
+    padding-top: 45px;
+}
+.totti-right p:nth-child(2){
+    font-family: var(--mregular);
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--txt);
+    line-height: 35px;
+   
+}
+.totti{
+    padding: 66px 0  0;
+}
+.totti-right-right p{
+    font-family: var(--mbold);
+    font-size: 24px;
+    font-weight:700; 
+    color:#bdbdbd;
+    padding-right: 60px;
+
+}
+.menu{
+    font-family: var(--mbold);
+    font-size: 36px; 
+    font-weight: 700;
+    color:#dcffbf;
+    text-transform: uppercase;
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+.item-right-left h5{
+    font-family: var(--mbold);
+    font-size: 30px;
+    font-weight: 700;
+    color:#c7c7c7;
+    padding-top: 30px;
+    text-transform: uppercase;
+}
+.item-right-left{
+    padding-left: 15px;
+   
+}
+.item-info p{
+    font-family: var(--mregular);
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--txt);
+    line-height: 15px;
+
+}
+.item-right-right{
+    padding-top: 46px;
+
+    
+}
+.item-right-right span{
+    font-family: var(--mbold);
+    font-size: 30px;
+    font-weight: 700;
+    color:#bdbdbd;
+   
+}
+.item-right-right p{
+    font-family: var(--mregular);
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--txt);
+    margin-bottom: 32px;
+    
+    padding-right: 0;
+}
+.lolo{
+    margin-bottom: 50px;
+}
+
+.sikit{
+    background: url('./images/Слой 1.png') no-repeat center  center / cover;
+    padding: 46px 0 0 30px;
+}
+ /* .item-right-right {
+    padding-left: 251px;
+} */
+.item-right-right a{
+    padding: 17px 47px 20px 45px; 
+    background: linear-gradient(to top,var(--grend), var(--sale));
+    color: #fff;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: var(--mregular);
+    
+} 
+
+.sikit span{
+    border-radius: 50%;
+    padding: 16px 8px 16px 7px;
+    background-color: var(--sale);
+    font-family: var(--mbold);
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    
+    
+
+} 
+.text-uppercase{
+    font-size: 14px;
+    font-weight: 700;
+    font-family: var(--mbold);
+    color: #bdbdbd;
+    padding-top: 31px;
+}
+.main-top{
+    padding: 0 15px 0 15px;
+}
+.main-top p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--mregular);
+    color: var(--txt);
+}
+.footer{
+    background-color: black;
+    margin-top: 86px;
+}
+.main-bottom{
+    margin-top: 120px;
+    margin-top: 100px;
+}
+.footer-bottom p{
+    font-size: 16px;
+    font-family: var(--mthin);
+    color: #fff;
+    
+    
+}
+
+.footer-bottom{
+    margin-top: 50px;
+    padding-bottom: 58px;
+}
+
+.footer-main{
+    padding-top: 30px;
+}
+
+
+
+
